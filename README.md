@@ -1,8 +1,8 @@
 # DOT-files
 
-######Scripts
+#### Scripts
 
-###### .zshrc
+#### .zshrc
 customized version of the default arco .zshrc
-###### .bashrc
+#### .bashrc
 customized version of the default arco .bashrc
