@@ -1,9 +1,10 @@
-# DOT-files
+# __DOT-files__
 ## Short description of what each file is.
 
-### Scripts
+### __Scripts:__
+Some scripts I made for myself
 
-### .zshrc:
+### __.zshrc:__
 customized version of the default arco .zshrc
-### .bashrc:
+### __.bashrc:__
 customized version of the default arco .bashrc
