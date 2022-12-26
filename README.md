@@ -1,4 +1,4 @@
-# __DOT-files__
+# __DOTS__
 ## Short description of what each file is.
 
 ### __Scripts:__
