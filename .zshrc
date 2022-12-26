@@ -84,6 +84,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  copyfile
   sudo
   zsh-autosuggestions
   zsh-interactive-cd
@@ -177,6 +178,7 @@ alias edit-bash="$EDITOR ~/.bashrc"
 alias edit-zsh="$EDITOR ~/.zshrc"
 alias edit-fish="$EDITOR ~/.config/fish/config.fish"
 alias edit-neofetch="$EDITOR ~/.config/neofetch/config.conf"
+alias edit-libvirtd="$EDITOR /etc/libvirt/libvirtd.conf"
 
 ###########
 # Updates #
@@ -259,10 +261,10 @@ alias fgrep='fgrep --color=auto'
 # Bats #
 ########
 #reading logs with bat
-alias lcalamares="bat /var/log/Calamares.log"
-alias lpacman="bat /var/log/pacman.log"
-alias lxorg="bat /var/log/Xorg.0.log"
-alias lxorgo="bat /var/log/Xorg.0.log.old"
+alias bat-calamares="bat /var/log/Calamares.log"
+alias bat-pacman="bat /var/log/pacman.log"
+alias bat-xorg="bat /var/log/Xorg.0.log"
+alias bat-xorgo="bat /var/log/Xorg.0.log.old"
 
 ############
 # Utilitys #
