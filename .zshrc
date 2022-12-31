@@ -194,6 +194,7 @@ alias update-pacman="sudo pacman -Syu"
 alias update-aur="yay -Syu --aur"
 alias update-brew="brew update"
 alias update-nix="nix-env -u"
+alias update-pipx="pipx upgrade"
 alias update-paru="paru -Syu --noconfirm"
 update-all() {
   echo 'All Updates Starting' | lolcat -S 0
@@ -209,7 +210,10 @@ update-all() {
   echo 'Brew Update Complete' | lolcat -S 0 
   echo 'Nix Update Started' | lolcat -S 0
   nix-env -u
-  echo 'Nix Update Complete' | lolcat -S 0 
+  echo 'Nix Update Complete' | lolcat -S 0
+  echo 'Pipx Update Started' | lolcat -S 0
+  pipx upgrade-all
+  echo 'Pipx Update Complete' | lolcat -S 0 
   echo 'All Updates Finished!' | lolcat -S 0 
   echo 'Have a nice day!' | lolcat -S 0
 }
@@ -453,3 +457,5 @@ ex ()
 #sysinfo-retro
 #cpufetch
 #colorscript random
+
+clear
