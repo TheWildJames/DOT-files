@@ -245,6 +245,17 @@ alias rm-pacmanlock="sudo rm /var/lib/pacman/db.lck"
 alias rm-logoutlock="sudo rm /tmp/arcologout.lock"
 alias rm-gitcache="rm -r ~/.cache/git"
 
+##########
+# Github #
+##########
+git-zsh() {
+  cp ~/.zshrc ~/github/DOTS/
+  cd ~/github/DOTS/
+  git add .zshrc
+  git commit -m "edited om arco uploadd by git-zsh"
+  git push
+}
+
 ########
 # list #
 ########
