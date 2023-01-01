@@ -252,7 +252,7 @@ git-zsh() {
   cp ~/.zshrc ~/github/DOTS/
   cd ~/github/DOTS/
   git add .zshrc
-  git commit -m "edited om arco uploadd by git-zsh"
+  git commit -m 'edit zshrc'
   git push
 }
 
